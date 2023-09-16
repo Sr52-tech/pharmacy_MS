@@ -1,20 +1,18 @@
 import React from "react";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx"
-import ICards from "./components/iCards.jsx";
+import Account from "./components/Account.jsx";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-function AdEmpList() {
+function AdminEmpList() {
     return (
         <Router>
             <>
                 <Navbar />
                 <br />
                 <br />
-                <div className="row">
-                    <ICards imgsrc="/public/project_pics/ragoo.jpg" emp_name="Name1" info="Info1"/>
-                    <ICards imgsrc="/public/project_pics/ragoo.jpg" emp_name="Name2" info="Info2"/>
-                    {/* Add more cards as needed */}
+                <div className="d-flex justify-content-center">
+                    <Account />
                 </div>
                 <br />
                 <br />
@@ -26,4 +24,4 @@ function AdEmpList() {
     );
 }
 
-export default AdEmpList;
+export default AdminEmpList;
