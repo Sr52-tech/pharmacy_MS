@@ -3,9 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link } from "react-router-dom";
 
-function Cards({ title, text, imageUrl, path }) {
+function Small_Cards({ title, text, imageUrl, path }) {
     return (
-        <div className="col-lg-7 col-md-9">
+
+        
+        <div className="col-lg-3 col-md-4 col-sm-6" style={{margin:'1rem'}}>
         {/* do not forget to add the path later */}
         <Link to={path} style={{ textDecoration: 'none' }}>
             <div className="card mb-3">
@@ -18,6 +20,8 @@ function Cards({ title, text, imageUrl, path }) {
             </div>
         </Link> 
         </div>
+        
+        
     );
 }
-export default Cards;
+export default Small_Cards;

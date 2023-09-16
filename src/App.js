@@ -1,10 +1,14 @@
 import React from 'react';
-import AdDash from './pages/AdDash.js'; // adjust the path according to your project structure
-import EmpDash from './pages/EmpDash.js';
-import AdEmpList from './pages/AdEmpList.js';
+import AdminDash from './pages/Admin_Dash.js'; //done
+import EmpDash from './pages/Emp_Dash.js'; //done
+import AdminEmpList from './pages/Admin_EmpList.js'; //done
 import Login from './pages/Login.js';
 import SignUp from './pages/SignUp.js';
-import AddEmployee from './pages/AddEmp.js';
+import AddEmployee from './pages/Admin_AddEmp.js'; //done
+import LandingPage from './pages/Client_LandingPage.js'
+import ClientAccount from './pages/Client_AccountPage.js';
+import AdminAddProduct from './pages/Admin_AddProduct.js'
+import EmpAddProduct from './pages/Emp_AddProduct.js';
 import { Route } from 'react-router-dom/cjs/react-router-dom.min.js';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 
@@ -15,16 +19,19 @@ function App() {
       <div className="App">
         <Switch>
 
+          {/* done */}
           <Route path="/admin-dashboard">
-            <AdDash />
+            <AdminDash /> 
           </Route>
 
+          {/* done */}
           <Route path="/employee-dashboard">
             <EmpDash />
           </Route>
 
+            {/* done */}
             <Route path="/list-of-employee">
-            <AdEmpList />
+            <AdminEmpList />
           </Route>
 
           <Route path="/login">
@@ -35,9 +42,27 @@ function App() {
             <SignUp />
           </Route>
 
-          <Route path="/add-employee">
+          {/* done */}
+          <Route path="/admin-add-employee">
             <AddEmployee />
           </Route>
+
+          <Route path="/main">
+            <LandingPage />
+          </Route> 
+
+          <Route path="/account">
+            <ClientAccount />
+          </Route>  
+
+          <Route path="/admin-add-product">
+            <AdminAddProduct />
+          </Route>        
+
+          <Route path="/employee-add-product">
+            <EmpAddProduct />
+          </Route>        
+
 
         </Switch>
       </div>

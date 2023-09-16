@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx"
-import AddItemForm from "./components/addingForm.jsx";
+import AddItemForm from "./components/AddingForm.jsx";
 
 import { BrowserRouter as Router } from "react-router-dom";
 

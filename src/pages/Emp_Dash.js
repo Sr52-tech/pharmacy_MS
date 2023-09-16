@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar.jsx";
-import Cards from "./components/Cards.jsx";
+import Cards from "./components/Dash_Cards.jsx";
 import Footer from "./components/Footer.jsx"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 
-function AdDash() {
+function EmpDash() {
     return (
         <Router>
             <>
@@ -26,12 +26,6 @@ function AdDash() {
                     imageUrl="../public/project_pics/Meds.png" 
                     // path = 
                 />}
-                {<Cards
-                    title="Card 3" 
-                    text="This is the third card." 
-                    imageUrl="../public/project_pics/Request.png" 
-                    // path = 
-                />}
             </div>
         </div>
 
@@ -45,4 +39,4 @@ function AdDash() {
     );
 }
 
-export default AdDash;
+export default EmpDash;

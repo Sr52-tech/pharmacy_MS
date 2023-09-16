@@ -31,9 +31,9 @@ return (
             </div>
             <div className="col">
             <h5>Contact Us</h5>
-            <p>building 666 street 777 Bahrain</p>
+            <p>building 666 street 777 some place</p>
             <p>Email: sarah@your_mommy.com</p>
-            <p>Phone: 38885454</p>
+            <p>Phone: 1235444</p>
             </div>
             <div className="col">
             <h5>Follow Us</h5>
