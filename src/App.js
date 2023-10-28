@@ -9,6 +9,8 @@ import LandingPage from './pages/Client_LandingPage.js'
 import ClientAccount from './pages/Client_AccountPage.js';
 import AdminAddProduct from './pages/Admin_AddProduct.js'
 import EmpAddProduct from './pages/Emp_AddProduct.js';
+import AdminProductList from './pages/Admin_Products.js';
+import EmpProductList from './pages/Emp_Products.js'
 import { Route } from 'react-router-dom/cjs/react-router-dom.min.js';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 
@@ -57,12 +59,19 @@ function App() {
 
           <Route path="/admin-add-product">
             <AdminAddProduct />
+          </Route>
+
+          <Route path="/admin-product-list">
+            <AdminProductList />
           </Route>        
 
           <Route path="/employee-add-product">
             <EmpAddProduct />
           </Route>        
 
+          <Route path="/employee-product-list">
+            <EmpProductList />
+          </Route>  
 
         </Switch>
       </div>

@@ -1,0 +1,9 @@
+.big-button {
+    font-size: 24px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background-color: navy;
+    color: white;
+    border: none;
+    max-width: 20rem;
+}  

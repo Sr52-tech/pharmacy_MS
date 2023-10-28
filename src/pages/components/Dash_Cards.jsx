@@ -4,6 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link } from "react-router-dom";
 
 function Dash_Cards({ title, text, imageUrl, path }) {
+    console.log(imageUrl);
     return (
         <div className="col-lg-7 col-md-9">
         {/* do not forget to add the path later */}

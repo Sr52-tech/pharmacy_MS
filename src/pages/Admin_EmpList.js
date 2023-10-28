@@ -12,7 +12,7 @@ function AdminEmpList() {
                 <br />
                 <br />
                 <div className="row" style={{ display: 'flex', justifyContent: 'center' }}>
-                    <ICards imgsrc="/public/project_pics/ragoo.jpg" title="Name1" text="Info1"/>
+                    <ICards imgsrc="./components/alikhandro.jpg" title="Name1" text="Info1"/>
                     <ICards imgsrc="/public/project_pics/ragoo.jpg" title="Name2" text="Info2"/>
                     <ICards imgsrc="/public/project_pics/ragoo.jpg" title="Name2" text="Info2"/>
                     <ICards imgsrc="/public/project_pics/ragoo.jpg" title="Name2" text="Info2"/>
