@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar.jsx";
 import Cards from "./components/Dash_Cards.jsx";
-import Footer from "./components/Footer.jsx"
+import Footer from "./components/Footer.jsx";
 import { BrowserRouter as Router} from "react-router-dom";
 
 function EmpDash() {
